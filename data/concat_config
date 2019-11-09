@@ -1,0 +1,14 @@
+{
+    "model_type": "concat",
+    "lstm_dim": 200,
+    "dropout": 0.7,
+    "layer_type": "concat",
+    "lr": 0.0003,
+    "vocab_file": "home/daguan_ner/data/elmo_model/vocab.txt",
+    "options_file": "home/daguan_ner/data/elmo_model/options.json",
+    "weight_file": "home/daguan_ner/data/elmo_model/weights.hdf5",
+    "token_embedding_file": "home/daguan_ner/data/elmo_model/vocab_embedding.hdf5",
+    "size_per_head": 64,
+    "num_attention_heads": 8,
+    "attention": false
+}
